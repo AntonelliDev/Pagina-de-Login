@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Gotham;
+    src: url('gotham-black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Retro;
+    src: url(1942.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulos {
+    display: block;
+    font-family: 'Gotham';
+    /* position: absolute; */
+    z-index: 2;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 650px;
+}
+
+img {
+    display: block;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 1;
+    width: 680px;
+    height: auto;
+    /* max-width: 300px;
+    max-width: 700px; */
+}
+
+#email {
+    font-family: 'Gotham';
+    margin-left: 388px;
+    margin-top: 60px;
+    padding: 9px;
+    width: 380px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    border: none;
+}
+
+#senha {
+    font-family: 'Gotham';
+    margin-left: 388px;
+    margin-top: 15px;
+    padding: 9px;
+    width: 380px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    border: none;
+    color: black;
+}
+
+#botaologin {
+    font-family: 'Gotham';
+    margin-left: 1092px;
+    margin-top: 15px;
+    padding: 9px;
+    width: 100px; 
+    border: none;
+    border-radius: 4px;
+    display: block;
+}
+
+#frase {
+    display: block;
+    font-family: 'Gotham';
+    margin-left: 690px;
+    margin-top: 250px;
+}
+
+#contato {
+    display: block;
+    font-family: 'Gotham';
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 1200px;
+    margin-top: -20px;
+}
